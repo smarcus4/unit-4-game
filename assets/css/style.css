@@ -1,0 +1,31 @@
+html, body {
+    height:100%;
+    background-color: rgba(25, 94, 105, 0.558);
+    display:flex;
+    flex-direction:column;
+  }
+
+
+.container{
+    background-color: rgb(47, 186, 153);
+    flex-grow: 1;
+}
+.container-fluid{
+    background-color: rgba(80, 198, 225, 0.626);
+}
+
+.main{
+    background-color: rgb(78, 149, 199);
+}
+.container-fluid{
+    background-color: rgba(68, 131, 132, 0.626);
+    color: white;
+}
+
+.crystals{
+    height: 250px;
+    width: 110px;
+    margin-left: 100px;
+
+}
+
