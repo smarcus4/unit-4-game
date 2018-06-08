@@ -1,31 +1,75 @@
-html, body {
-    height:100%;
-    background-color: rgba(25, 94, 105, 0.558);
-    display:flex;
-    flex-direction:column;
-  }
 
-
-.container{
-    background-color: rgb(47, 186, 153);
-    flex-grow: 1;
-}
-.container-fluid{
-    background-color: rgba(80, 198, 225, 0.626);
+.gemImage{
+    height: 150px;
+    width:200px;
+    display:inline;
+    padding-right: 50px;
+ 
+    
 }
 
-.main{
-    background-color: rgb(78, 149, 199);
+.gems{
+    text-align: center;
+    background-color: black;
+    width:60%;
+    margin: auto;
+    padding: 1em 2em;
+   
 }
-.container-fluid{
-    background-color: rgba(68, 131, 132, 0.626);
+
+.header{
+    text-align: center;
+    background-color: linear-gradient(100deg, #2988cc, #4bbf79, #9fc0ce, #a656cb, #5ac5c7, #1ddde8,#dd00f3, #dd00f3);
     color: white;
+    padding: 1em;
+    width: 65%;
+    margin: auto;
+    display: block;  
+    font-family: 'Gloria Hallelujah', cursive;
 }
 
-.crystals{
-    height: 250px;
-    width: 110px;
-    margin-left: 100px;
+.instructions{
+    text-align: left;
+    background-color: rgb(89, 220, 211);
+    color: white;
+    width: 65%;
+    padding: 1em;
+    margin: auto;
+    font-family: 'Gloria Hallelujah', cursive;
+}
 
+.score-table{
+    padding:1em;
+    width: 65%;
+    margin: auto;
+    background-color: white;
+    border-color: rgb(18, 89, 125);
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+
+body { 
+    background: linear-gradient(100deg, #338538, #1d87bb, #9fc0ce, #a656cb, #1de840, #1ddde8,#dd00f3, #dd00f3); 
+    -webkit-animation: rainbow 100s ease infinite;
+    -z-animation: rainbow 100s ease infinite;
+    -o-animation: rainbow 100s ease infinite;
+      animation: rainbow 100s ease infinite;
+    background: 
+}
+
+/*pulse effect for crystal hover*/
+.pulse:hover {
+    animation: pulse 1s infinite;
+  }  
+@keyframes pulse {
+    0% { transform: scale(1); }
+    25% { transform: scale(1.05); }
+    50% { transform: scale(1); }
+    75% { transform: scale(1.05); }
+    100% { transform: scale(1); }
 }
 
